@@ -1,0 +1,11 @@
+<additional xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+            xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/additional_file.xsd">
+
+    <vTypeDistribution id="vtype_car1">
+<!--        <vType id="vtype_car10" tau="1.01" sigma="0.500" length="5.000" lcStrategic="0.793" minGap="1.480" color="yellow"-->
+<!--               vClass="passenger" carFollowModel="EIDM"/>-->
+<!--        <vType id="vtype_car10" speedFactor="0.8" decel="3" />-->
+        <vType id="t0" speedDev="0.1"/>
+    </vTypeDistribution>
+
+</additional>

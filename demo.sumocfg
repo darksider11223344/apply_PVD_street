@@ -1,0 +1,12 @@
+<configuration>
+    <input>
+        <net-file value="in/osm.net.xml"/>
+
+        <!-- <route-files value="in/route/routesDistributions.rou.xml" /> -->
+
+        <additional-files value="in/add/vtype/vtype.add.xml,
+            in/route/routesDistributions.rou.xml,
+            in/flow/flows.flows.xml,
+            in/add/cali/cali_E_W_edge.add.xml" />
+    </input>
+</configuration>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<additional xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+            xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/additional_file.xsd">
+
+    <route id="route_cali_E_W" edges="764859885#0 764859885#1 764859885#2" color="red"/>
+
+    <calibrator id="caliCar1_E_W_0" vTypes="vtype_car1" edge="404516659#2" pos="0" jamThreshold="0.5">
+
+<!--        <flow begin="0" end="60" route="route_cali_E_W" vehsPerHour="180" speed="27.78" type="vtype_car1"/>-->
+
+<!--        <flow begin="0" end="7200" route="route_cali_E_W" vehsPerHour="180" speed="27.78" type="vtype_car1"-->
+<!--              departPos="random_free" departSpeed="max"/>-->
+<!--        <flow begin="60" end="120" route="route_cali_E_W" vehsPerHour="180" speed="27.78" type="vtype_car1"-->
+<!--              departPos="random_free" departSpeed="max"/>-->
+    </calibrator>
+
+</additional>
