@@ -1,8 +1,15 @@
 import traci
 import time
+import pyodbc
+
 import functions as fn
 
 sumoCmd = ["sumo-gui", "-c", "demo.sumocfg"]
+
+
+# Change the name of your SERVER in SERVER=KKUSIC-L\SQLEXPRESS (see your database), and UID=FPZ\kkusic (used by SQL authentication)
+conn = pyodbc.connect('DRIVER={ODBC Driver 17 for SQL Server};SERVER=DESKTOP-Q9818VV\SQLEXPRESS;DATABASE=PVD_traffic_data;UID=DESKTOP-Q9818VV\quang;TRUSTED_CONNECTION=yes')
+time.sleep(0.1)
 
 hours = 24
 run = 0
